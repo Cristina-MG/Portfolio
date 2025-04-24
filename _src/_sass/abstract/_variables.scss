@@ -1,0 +1,49 @@
+// Fonts
+$--sans-serif:  var(--sans-serif);
+$--serif:       var(--serif);
+$--mono:        var(--mono);
+
+// Font size
+$font-size-base:    clamp(1rem, calc(0.96rem + 0.18vw), 1.125rem);
+$h1-font-size:      clamp(1.75rem, calc(1.39rem + 1.79vw), 3rem);
+$h2-font-size:      clamp(1.5rem, calc(1.29rem + 1.07vw), 2.25rem);
+
+// Spacing
+$list-inline-padding: .5rem !default;
+$header-height: 70px;
+
+// Breakpoints (Desktop-first, using maximum values)
+$sm: 650px;
+$md: 1000px;
+$lg: 1400px;
+
+// layout
+$section-margin-top: 100px;
+$section-margin-bottom: 200px;
+
+// Theme
+
+// Link Sass and CSS variables
+$--theme-primary: --theme-primary;
+$--theme-secondary: --theme-secondary;
+$--theme-tertiary: --theme-tertiary;
+$--theme-surface: --theme-surface;
+$--theme-background: --theme-background;
+$--theme-on-primary: --theme-on-primary;
+$--theme-on-secondary: --theme-on-secondary;
+$--theme-on-tertiary: --theme-on-tertiary;
+$--theme-on-surface: --theme-on-surface;
+
+// Default dark theme
+
+$theme-map-dark: (
+    $--theme-background:   #1B1C2B,  // fondo general
+    $--theme-surface:      #d9a3ae59,  // secciones o tarjetas
+    $--theme-primary:      #D9A3AE,  // rosa elegante (botones, énfasis)
+    $--theme-secondary:    #E0E0E0,  // texto secundario o detalles
+    $--theme-tertiary:     #29648A,  // azul profundo (opcional)
+    $--theme-on-primary:   #1B1C2B,  // texto sobre rosa (oscuro)
+    $--theme-on-secondary: #1B1C2B,  // texto sobre gris claro
+    $--theme-on-tertiary:  #FFFFFF,  // texto sobre azul
+    $--theme-on-surface:   #E0E0E0   // texto sobre fondo surface
+);

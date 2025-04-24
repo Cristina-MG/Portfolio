@@ -1,0 +1,14 @@
+.project-image {
+  width: 100%;
+  max-width: 640px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+.project-title {
+  font-size: 1.5rem;  // Puedes ajustar este valor si quieres aún más grande
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}

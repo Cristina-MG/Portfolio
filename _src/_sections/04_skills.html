@@ -1,0 +1,76 @@
+---
+title: Skills
+order: "04"
+class: wide
+---
+
+<h1 class="section-header">Skills</h1>
+<div id="skills" class="accordeon">
+  {% for skill in site.data.skills %}
+  <div class="accordeon-item">
+    <h1 class="accordeon-title">{{ skill.category }}</h1>
+    <div class="accordeon-content small">
+      <ul class="naked-list">
+        {% if skill.style == "text" %}
+          {% for s in skill.list %}
+            <li><span class="text-primary">{{ s.item }}:</span> {{ s.more }}</li>
+          {% endfor %}
+        {% elsif skill.style == "inline" or skill.style == "nested" %}
+          {% for s in skill.list %}
+            <li><span class="text-primary">{{ s.item }}:</span>
+              {% for li in s.sublist %}{{ li }}{% if forloop.last == false %}, {% else %}.{% endif%}{% endfor %}
+            </li>
+          {% endfor %}
+        {% else %}
+          {{ skill.list | markdownify }}
+        {% endif%}
+      </ul>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+  .accordeon-title {
+    cursor: pointer;
+    position: relative;
+    padding-right: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .accordeon-title::after {
+    content: "▼";
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: transform 0.3s ease;
+    font-size: 1rem;
+  }
+
+  .accordeon-title.open::after {
+    transform: rotate(180deg);
+  }
+
+  .accordeon-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .accordeon-content.active {
+    max-height: 1000px; /* Asegúrate de que sea suficiente para mostrar todo el contenido */
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const titles = document.querySelectorAll(".accordeon-title");
+    titles.forEach(title => {
+      title.addEventListener("click", () => {
+        const content = title.nextElementSibling;
+        content.classList.toggle("active");
+        title.classList.toggle("open");
+      });
+    });
+  });
+</script>

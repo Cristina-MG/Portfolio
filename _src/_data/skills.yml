@@ -1,0 +1,83 @@
+- category: Análisis de Datos y Visualización 
+  style: nested
+  list:
+  - item: Herramientas de inteligencia de negocio (BI)
+    sublist:
+    - Power BI (modelado de datos, fórmulas DAX, visualizaciones)
+    - Excel avanzado (Power Query, tablas dinámicas, macros)
+    - Power Automate (automatización de flujos)
+  - item: Visualización de datos con Python
+    sublist:
+    - Matplotlib
+    - Seaborn
+    - Plotly
+    - Folium
+    - Streamlit (creación de prototipos interactivos)
+
+- category: Programación y Automatización
+  style: nested
+  list:
+  - item: Lenguajes y scripting
+    sublist:
+    - Python (pandas, numpy, scikit-learn, openpyxl)
+    - SQL (consultas, joins, subconsultas, agregaciones)
+    - Bash (nivel básico)
+  - item: Automatización de procesos y APIs
+    sublist:
+    - Power Automate (integración entre servicios)
+    - Web scraping (BeautifulSoup, Selenium)
+    - Consumo de APIs (formato JSON, XML)
+
+- category: Ciencia de Datos y Machine Learning
+  style: nested
+  list:
+  - item: Modelos supervisados
+    sublist:
+    - Regresión lineal y logística
+    - Clasificación (árboles de decisión, Random Forest)
+    - Validación cruzada, GridSearchCV
+  - item: Modelos no supervisados
+    sublist:
+    - Clustering (K-means)
+    - Reducción de dimensionalidad (PCA)
+  - item: Otras técnicas
+    sublist:
+    - Procesamiento de lenguaje natural (NLP básico)
+    - Análisis de series temporales
+    - Redes neuronales (introducción a CNN y autoencoders)
+
+- category: Bases de Datos y Nube
+  style: nested
+  list:
+  - item: Gestión de datos
+    sublist:
+    - SQL Server
+    - Integración y limpieza de datos
+  - item: Entornos en la nube (nivel introductorio)
+    sublist:
+    - AWS
+    - Azure
+    - Hadoop y Spark
+
+- category: Herramientas y Entornos de Desarrollo
+  style: inline
+  list:
+  - item: Entornos de trabajo
+    sublist:
+    - Jupyter Notebooks
+    - PyCharm
+    - Visual Studio Code
+    - Anaconda
+  - item: Control de versiones
+    sublist:
+    - Git
+    - GitHub
+ 
+
+- category: Idiomas
+  style: text
+  list:
+  - item: Español
+    more: Nativo
+  - item: Inglés
+    more: Nivel B2 (EOI – Escuela Oficial de Idiomas)

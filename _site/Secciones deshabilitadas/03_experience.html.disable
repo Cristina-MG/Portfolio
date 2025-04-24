@@ -1,0 +1,96 @@
+<h1 class="section-header">Experience</h1>
+<div id="experience" class="tabs-container">
+  <div class="tabs">
+    
+      <a href="#tab5" class="tab">INRIA</a>
+    
+      <a href="#tab6" class="tab">UGA</a>
+    
+      <a href="#tab7" class="tab">L2S</a>
+    
+      <a href="#tab8" class="tab">INRIA</a>
+    
+      <a href="#tab9" class="tab">INSA</a>
+    
+      <a href="#tab10" class="tab">CAFDA</a>
+    
+  </div>
+  <div class="tabs-content">
+    
+      <div class="content" id="tab5">
+        <h1 class="tab-title">PhD Student <a href="https://www.inria.fr/en/inria-centre-university-grenoble-alpes" target="_blank">@ Inria Grenoble – Rhône-Alpes</a></h1>
+        <h2 class="tab-subtitle">October 2022 - ongoing</h2>
+        <div class="tab-content"><p>Working on control of microorganisms communities, as a member of the
+<a href="https://team.inria.fr/microcosme">Microcosme</a> project-team.</p>
+
+<p>Investigated nonlinear systems of bacteria and microalgae through mathematical
+analysis and simulation.
+Currently designing observers for such systems for future development of
+feedback control of algal-bacterial consortia, through classical control
+strategies and data-driven approaches.</p>
+</div>
+      </div>
+    
+      <div class="content" id="tab6">
+        <h1 class="tab-title">Teaching Assistant <a href="https://www.univ-grenoble-alpes.fr" target="_blank">@ Université Grenoble Alpes</a></h1>
+        <h2 class="tab-subtitle">September 2022 - ongoing</h2>
+        <div class="tab-content"><p>Teaching mathematics and computer science at a Bachelor’s level.</p>
+<ul>
+  <li>Course (16 hours): Fundamental mathematical tools for life sciences, L1, Life Sciences.</li>
+  <li>Practical class (18 hours): Applied mathematics: image processing, L1, Computer Science.</li>
+</ul>
+</div>
+      </div>
+    
+      <div class="content" id="tab7">
+        <h1 class="tab-title">Research Intern <a href="https://l2s.centralesupelec.fr/en/" target="_blank">@ Laboratory of Signals and Systems (Centralesupelec, CNRS)</a></h1>
+        <h2 class="tab-subtitle">November 2020 - June 2021</h2>
+        <div class="tab-content"><p>Worked on a bio-inspired geometric model for sound reconstruction.
+The spectrum of the degraded sound is lifted in the Heisenberg group
+and reconstructed via the Wilson-Cowan differo-integral equation.</p>
+
+<p>Contributed to an <a href="https://doi.org/10.1007/978-3-030-80209-7_7">article</a>
+published in the <a href="https://www.see.asso.fr/en/GSI2021">GSI 2021</a> conference proceedings.</p>
+
+<p>Improved and extended the <a href="https://github.com/rand-asswad/WCA1">implementation</a>
+of the proposed model, and ran experiments on a library of speech recordings.</p>
+
+<p>This internship concluded my Master’s degree at INSA Rouen Normandie
+(<a href="https://rand-asswad.xyz/WCA1-docs/">published report</a>).</p>
+</div>
+      </div>
+    
+      <div class="content" id="tab8">
+        <h1 class="tab-title">Research Intern <a href="https://www.inria.fr/en/centre/nancy" target="_blank">@ Inria Nancy Grand-Est</a></h1>
+        <h2 class="tab-subtitle">June - August 2019</h2>
+        <div class="tab-content"><p>Contributed to the <a href="http://www.sciencedirect.com/science/article/pii/S0010448518302215">Mind the Gap!</a>
+algorithm developed by <a href="https://pixel.inria.fr">Pixel team</a> that proposes a robust pipeline
+for generating hexahedral-dominant meshes from any global parametrization of a tetrahedral mesh.</p>
+
+<p>Proposed and implemented improvements to the pipeline that helped obtain better meshes with
+less irregularities.</p>
+</div>
+      </div>
+    
+      <div class="content" id="tab9">
+        <h1 class="tab-title">Web Development Intern <a href="https://www.insa-rouen.fr" target="_blank">@ INSA Rouen Normandie</a></h1>
+        <h2 class="tab-subtitle">July - September 2017</h2>
+        <div class="tab-content"><p>Established a Proof of Concept of a web client of the free software <a href="https://www.auto-multiple-choice.net/">AMC</a>
+that creates and manages multiple choice questionnaires (MCQ) as it is only available on UNIX systems.</p>
+
+<p>Implemented a Django web application that communicates with AMC on the server side.</p>
+</div>
+      </div>
+    
+      <div class="content" id="tab10">
+        <h1 class="tab-title">Volunteer Translator <a href="https://fr.wikipedia.org/wiki/Coordination_de_l%27accueil_des_familles_demandeuses_d%27asile" target="_blank">@ CAFDA</a></h1>
+        <h2 class="tab-subtitle">July - August 2016</h2>
+        <div class="tab-content"><p>Volunteered as a French-Arabic translator for asylum-seekers.</p>
+
+<p>The CAFDA is an organization that receives asylum-seeking families and accompanies them in their
+asylum demand procedure and in their access to social rights.</p>
+</div>
+      </div>
+    
+  </div>
+</div>

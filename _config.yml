@@ -1,0 +1,70 @@
+# site variables
+url:          ""
+baseurl:      ""
+source:       ./_src
+destination:  ./_site
+
+# meta
+title: Cristina Martínez García
+description: | # appears in search engines preview (keep it under 120 chars)
+  Analista de datos con formación en matemáticas aplicadas e informática, 
+  especializada en análisis de datos, visualización y modelado estadístico.
+
+# jekyll collections
+collections:
+  sections:
+    output: false
+  projects:
+    output: true
+    permalink: /proyectos/:name/
+
+
+
+# sass config
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# static files
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
+      type: "sections"
+    values:
+      title: NewSection
+      order: 10
+      active: false
+
+# jekyll plugins
+plugins:
+  - jekyll-minifier
+
+# minifier settings
+jekyll-minifier:
+  compress_css: false
+  uglifier_args:
+    harmony: true
+
+# Google Analytics measurements ID
+google_analytics: G-S3PD07MLXM
+
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: project
+
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+  - scope:
+      type: "sections"
+    values:
+      title: NewSection
+      order: 10
+      active: false

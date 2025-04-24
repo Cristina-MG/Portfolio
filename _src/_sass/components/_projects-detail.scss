@@ -1,0 +1,33 @@
+.project-detail {
+  width: 1%;
+  max-width: 100vw; // para que no sobrepase el viewport
+  overflow-x: hidden;
+  padding: 4rem 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.project-body {
+  width: 100%;
+  max-width: 800px; // este es el verdadero "ancho del contenido"
+  box-sizing: border-box;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 640px;
+  margin: 2rem 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-body {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}

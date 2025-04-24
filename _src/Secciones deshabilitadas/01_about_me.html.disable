@@ -1,0 +1,15 @@
+---
+title: about me
+order: "01"
+active: false
+---
+
+<h1 class="section-header">Algunas cosas sobre mí</h1>
+<ul class="list grid-list">
+  {% for c in site.data.about_me %}
+    <li>
+      <h1>{{ c.head }}</h1>
+      {{ c.body | markdownify }}
+    </li>
+  {% endfor %}
+</ul>

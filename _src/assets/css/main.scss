@@ -1,0 +1,98 @@
+---
+---
+
+@import "abstract/abstract";
+@import "base/base";
+@import "layout/layout";
+@import "components/components";
+@import "pages/pages";
+
+.project-detail {
+  max-width: 90vw; /* ocupa el 90% del viewport */
+  margin: auto;
+  padding: 4rem 1rem;
+  box-sizing: border-box;
+}
+
+.project-body {
+  width: 100%;
+}
+
+
+.project-image {
+  width: 100%;
+  max-width: 640px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+.project-body strong,
+.project-body b {
+  font-weight: bold;
+  color: #ffffff; /* o cualquier color visible */
+}
+
+.project-body {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #f0f0f0;
+
+  p {
+    margin-bottom: 1.2rem;
+  }
+
+  strong, b {
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: var(--theme-primary);
+  }
+
+
+  ul, ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  li::marker {
+    color: #aaa;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: #ddd;
+    font-style: italic;
+  }
+}
+
+/* Estilo para el menú de navegación */
+#nav-menu {
+  display: none;  /* El menú está oculto por defecto */
+}
+
+/* Cuando se añade la clase .active, el menú se muestra */
+#nav-menu.active {
+  display: block;  /* El menú se muestra cuando tiene la clase .active */
+}
+
+.nav-btn.mobile {
+  display: none;
+}

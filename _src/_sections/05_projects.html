@@ -1,0 +1,41 @@
+---
+title: Proyectos
+order: "05"
+class: wide
+---
+
+
+<h1 class="section-header">Proyectos</h1>
+<div id="projects" class="tabs-container">
+  <div class="tabs">
+    {% for p in site.data.projects %}
+      <a href="#proj{% increment tabLink %}" class="tab">{{ p.title }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="tabs-content">
+    {% for p in site.data.projects %}
+      <div class="content" id="proj{% increment tab %}">
+        {% if p.date %}
+          <h2 class="tab-subtitle">{{ p.date }}</h2>
+        {% endif %}
+
+        {% if p.long_title %}
+          <h3 class="project-title">
+            <a href="{{ p.url | relative_url }}" class="project-link">
+              {{ p.long_title }}
+            </a>
+          </h3>
+        {% endif %}
+
+        <div class="tab-content">
+          {{ p.description | markdownify }}
+        </div>
+
+        {% if p.image %}
+          <img src="{{ p.image | relative_url }}" alt="{{ p.title }}" class="project-image">
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

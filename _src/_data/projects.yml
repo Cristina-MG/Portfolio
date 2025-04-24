@@ -1,0 +1,47 @@
+- title: "Marketing"
+  long_title: "Análisis de Engagement y Opiniones de Clientes"
+  date: "Abril 2025"
+  description: "Dashboard interactivo en Power BI para analizar el engagement digital, la conversión de clientes y la satisfacción en productos cosméticos."
+  image: /assets/img/Marketing-cosmetic/P1.PNG
+  url: /2025/04/20/Marketing-Cosmeticos.html
+  tags: ["Power BI", "Engagement", "Customer Experience"]
+
+- title: "Crédito"
+  long_title: "Análisis de Solicitudes de Tarjeta de Crédito"
+  date: "Marzo 2025"
+  description: "Dashboard interactivo en Power BI para analizar solicitudes de tarjetas de crédito, entender factores de aprobación y perfilar solicitantes."
+  image: /assets/img/CreditCard/1.png
+  url: /2025/03/01/CreditCard.html
+  tags: ["Power BI", "ITSM"]
+
+- title: "Shiny"
+  long_title: "Customer Loyalty Monitoring in Banking Sector using R and Shiny"
+  date: "Julio 2024"
+  description: "Aplicación desarrollada con R y Shiny para monitorizar la fidelidad de clientes bancarios mediante dashboards, segmentación y modelos predictivos."
+  image: /assets/img/Fidelización/CapturaFidelizacionHome.png
+  url: /2024/07/20/FidelizacionClientes.html
+  tags: ["R", "Shiny", "Customer Loyalty", "Banking"]
+
+- title: "CV"
+  long_title: "Detección Facial en Personajes Animados con Computer Vision"
+  date: "Mayo 2021"
+  description: "Proyecto en Python y OpenCV para detectar el rostro de Bart Simpson mediante técnicas de visión por computador."
+  image: /assets/img/ComputerVision/B.png
+  url: /2021/05/20/ComputerVision.html
+  tags: ["Python", "Computer Vision", "OpenCV"]
+
+- title: "ML Tumores"
+  long_title: "Clasificación de Tumores Cerebrales con Imágenes por Resonancia y Deep Learning"
+  date: "Abril 2021"
+  description: "Proyecto de Machine Learning con CNN y Transfer Learning para detectar y clasificar tumores cerebrales a partir de imágenes por resonancia magnética (MRI)."
+  image: /assets/img/ML-TumorCerebral/tumorbrain.jpg
+  url: /2021/04/20/MLBrainTumor.html
+  tags: ["Machine Learning", "Deep Learning", "Salud", "CNN"]
+
+
+
+
+
+
+
+

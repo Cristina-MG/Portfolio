@@ -1,0 +1,45 @@
+<h1 class="section-header">Education</h1>
+<div class="accordeon">
+  
+    <div class="accordeon-item">
+      <h1 class="accordeon-title">PhD in Applied Mathematics <a href="https://doctorat.univ-grenoble-alpes.fr/" target="_blank">@ Université Grenoble Alpes / MSTII</a></h1>
+      <div class="accordeon-content">
+        <h2 class="accordeon-subtitle">October 2022 - present</h2>
+        <p><p>Studied mathematical modelling of microbiological systems, nonlinear systems
+state observation and control through literature and followed courses.</p>
+</p>
+      </div>
+    </div>
+  
+    <div class="accordeon-item">
+      <h1 class="accordeon-title">Mathematical Engineering <a href="https://www.insa-rouen.fr/en/education/engineering-specialization/mathematical-and-software-engineering" target="_blank">@ INSA Rouen Normandie</a></h1>
+      <div class="accordeon-content">
+        <h2 class="accordeon-subtitle">September 2014 - August 2021</h2>
+        <p><p>French graduate engineering program (Diplôme d’Ingénieur)
+with focus on applied mathematics and computer science.</p>
+</p>
+      </div>
+    </div>
+  
+    <div class="accordeon-item">
+      <h1 class="accordeon-title">Theoretical and Applied Computer Science <a href="https://dpt-info-sciences.univ-rouen.fr/index.php/accueil-mita" target="_blank">@ Université de Rouen</a></h1>
+      <div class="accordeon-content">
+        <h2 class="accordeon-subtitle">September 2019 - August 2020</h2>
+        <p><p>Research-oriented Master’s program with focus on algebra, theoretical
+computer science, and preparation for PhD.</p>
+</p>
+      </div>
+    </div>
+  
+    <div class="accordeon-item">
+      <h1 class="accordeon-title">Syrian Scientific Baccalaureate <a href="https://www.littlevillageschool.com/" target="_blank">@ Little Village School</a></h1>
+      <div class="accordeon-content">
+        <h2 class="accordeon-subtitle">June 2013</h2>
+        <p><p>Rich school program that gave me a head start in later studies.</p>
+
+<p>Graduation grade 92.17%</p>
+</p>
+      </div>
+    </div>
+  
+</div>

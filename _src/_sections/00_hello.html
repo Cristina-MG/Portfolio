@@ -1,0 +1,69 @@
+---
+title: Bienvenida
+order: "00"
+class: wide
+---
+
+<div class="video-container">
+  <video autoplay muted loop playsinline>
+    <source src="{{ '/assets/video/video_portada.mp4' | relative_url }}" type="video/mp4">
+    Tu navegador no soporta videos HTML5.
+  </video>
+
+  <style>
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+</style>
+</div>
+
+<div id="sketch-container">
+  <div id="sketch-holder"></div>
+  <!--div>
+    <input id="nbCoefs" type="range" min="1" max="100" value="100" class="slider">
+  </div-->
+</div>
+
+<div id="hello-text">
+  <h1 class="hello-title">¡Hola! Soy <span class="text-primary">Cristina</span></h1>
+  <div class="hello-content">
+    <p>
+      Soy una analista de datos apasionada por descubrir patrones, resolver problemas y transformar la información en decisiones inteligentes.
+Me especializo en el análisis exploratorio, la limpieza y modelado de datos, así como en la creación de dashboards claros y efectivos para comunicar resultados.
+
+Trabajo con herramientas como SQL, Excel, Power BI y Python, priorizando siempre la claridad, la eficiencia y la utilidad del análisis.
+Me encanta transformar grandes volúmenes de datos en insights prácticos que generen valor y apoyen la toma de decisiones en equipos de trabajo y organizaciones.
+Mi enfoque combina pensamiento analítico, atención al detalle y una curiosidad constante por encontrar la mejor manera de responder preguntas clave con datos.
+
+
+
+  {%
+    comment
+  %}
+  <div class="cv-btn-container">
+    <a href="/assets/rand_asswad_cv_en.pdf" hreflang="en" target="_blank" class="btn">English CV</a>
+    <a href="/assets/rand_asswad_cv_fr.pdf" hreflang="fr" target="_blank" class="btn">French CV</a>
+  </div>
+  {%
+    endcomment
+  %}
+</div>
+
+
+  {%
+    comment
+  %}
+  <div class="cv-btn-container">
+    <a href="/assets/rand_asswad_cv_en.pdf" hreflang="en" target="_blank" class="btn">English CV</a>
+    <a href="/assets/rand_asswad_cv_fr.pdf" hreflang="fr" target="_blank" class="btn">French CV</a>
+  </div>
+  {%
+    endcomment
+  %}
+</div>
+
+
+<a href="#about_me"><span class="next" title="next section"></span></a>
