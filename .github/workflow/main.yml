@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll Site
+name: Build and Deploy Jekyll Site from _src
 
 on:
   push:
@@ -24,8 +24,8 @@ jobs:
           bundle config set path 'vendor/bundle'
           bundle install
 
-      - name: Build site with Jekyll
-        run: bundle exec jekyll build
+      - name: Build site from _src
+        run: bundle exec jekyll build --source _src --destination _site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
