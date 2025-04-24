@@ -1,6 +1,6 @@
 # site variables
 url:          ""
-baseurl:      ""
+baseurl:      "/Portfolio"
 source:       ./_src
 destination:  ./_site
 
