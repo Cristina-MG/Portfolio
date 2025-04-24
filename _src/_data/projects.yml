@@ -38,7 +38,13 @@
   url: /2021/04/20/MLBrainTumor.html
   tags: ["Machine Learning", "Deep Learning", "Salud", "CNN"]
 
-
+- title: "ML Tumores"
+  long_title: "Clasificación de Tumores Cerebrales con Imágenes por Resonancia y Deep Learning"
+  date: "Abril 2021"
+  description: "Proyecto de Machine Learning con CNN y Transfer Learning para detectar y clasificar tumores cerebrales a partir de imágenes por resonancia magnética (MRI)."
+  image: /assets/img/ML-TumorCerebral/tumorbrain.jpg
+  url: /2021/04/20/MLBrainTumor.html
+  tags: ["Machine Learning", "Deep Learning", "Salud", "CNN"]
 
 
 
